@@ -1,0 +1,60 @@
+html,body{
+	height: 100%;
+}
+
+div h4{
+	text-decoration: underline;
+}
+.container {
+	text-align: center;
+	width: 60%;
+}
+
+#content{
+	font-size: 20px;
+}
+
+#level {
+	font-weight: bold;
+	font-size: 2em;
+	color: #654321;
+	display: block;
+	text-transform: uppercase;
+
+}
+
+#instructions {
+	margin-top: 20px;
+	text-align: left;
+	background-color: rgba(100,123,180,0.15);
+}
+
+#inputWord {
+	font-size: 20px;
+	display: block;
+	margin:0 auto;
+	margin-bottom: 30px;
+}
+
+#currentWord {
+	font-size: 30px;
+	font-style: italic;
+	width:40%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	background-color: pink;
+}
+
+#gameStatus {
+	font-size: 30px;
+	color: red;
+	margin-top: 20px;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 50px;
+}
+

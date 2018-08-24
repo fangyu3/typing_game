@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WordBeater</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="bg-dark text-white p-3 mb-3"><i class="fab fa-creative-commons-sampling"></i> Typist's Flow</h1>
+
+		<p id="gameStatus"></p>
+
+		<div id="content" class="bg-light">
+			<p>Current Level: <span id="level">easy</span></p>
+			<hr>
+			<p>Type:</p>
+			<p id="currentWord"></p>
+			<input id="inputWord" type="text" name="input" placeholder="Start Typing..." autofocus required>
+			<div class="row">
+				<p id="timeDisplay" class="col-sm-4">Time Left: <span id="time">5</span> seconds</p>
+				<p id="scoreDisplay" class="col-sm-4">Score: <span id="score">0</span></p>
+				<div class="col-sm-4">
+					<span>Levels:</span>
+					<button class="btn btn-outline-dark btn-sm">easy</button>
+					<button class="btn btn-outline-dark btn-sm">hard</button>
+				</div>
+			</div>
+			
+			
+		</div>
+
+		<div id="instructions">
+				<h4>Instructions</h4>
+				<ul>
+					<li>Type each word in the given amount of seconds to score</li> 
+					<li>type 's' to start</li>
+					<li>type 'r' to reset</li>
+				</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./app.js"></script>
+
+	<footer id="footer">
+		<p>&copy Yu.F</p>
+	</footer>
+</body>
+</html>
